@@ -32,12 +32,14 @@ package ArraysAndTwoPointers.HashingOOfN;
 //        -109 <= target <= 109
 //Only one valid answer exists.
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
     public static void main(String[] args) {
-        twoSum(new int[]{2, 7, 11, 15}, 9);
+        int[] result =twoSum(new int[]{2, 11, 7, 15}, 9);
+        System.out.println(Arrays.toString(result));
     }
 
     public static int[] twoSum(int[] nums, int target) {
